@@ -52,7 +52,7 @@ export default function About() {
                     Engaged in global industry and commerce, Prudential Shipping understands the imperative need of seamless transactions and so provides a variety of services from Vessel Agency to all Husbandry services.
                   </p>
                   <p className="text-gray-600 dark:text-gray-300">
-                    The company's dynamism is revealed in its capability to serve ships calling Colombo and other ports of Sri Lanka, as well as the Maldives, providing agency services to the Shipping industry.
+                    The company&apos;s dynamism is revealed in its capability to serve ships calling Colombo and other ports of Sri Lanka, as well as the Maldives, providing agency services to the Shipping industry.
                   </p>
                   <p className="text-gray-600 dark:text-gray-300">
                     Located in the heart of the busy Central Business District of Colombo, Prudential Shipping, is housed in a state-of-the-art office complex, complete with all facilities needed, to meet the challenges of Shipping, Logistics and Commerce.
@@ -209,7 +209,7 @@ export default function About() {
             >
               <h2 className="text-4xl font-bold mb-8">Quality Policy</h2>
               <p className="text-gray-200 text-lg leading-relaxed mb-6">
-                As one of Sri Lanka's leading shipping agency and logistic solution facilitator, we dedicate ourselves to deliver the expectations of all our stakeholders at all times. We will make commitments we fully understand and believe we can meet.
+                As one of Sri Lanka&apos;s leading shipping agency and logistic solution facilitator, we dedicate ourselves to deliver the expectations of all our stakeholders at all times. We will make commitments we fully understand and believe we can meet.
               </p>
               <p className="text-gray-200 text-lg leading-relaxed mb-6">
                 We will strive continuously to improve quality, employing skilled people and encouraging them to challenge themselves.

@@ -91,8 +91,8 @@ export default function Contact() {
 								Get in Touch
 							</h2>
 							<p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-								Having questions? We'd love to hear from you. Send us a message
-								and we'll respond as soon as possible.
+								Having questions? We&apos;d love to hear from you. Send us a message
+								and we&apos;ll respond as soon as possible.
 							</p>
 						</motion.div>
 
@@ -118,7 +118,7 @@ export default function Contact() {
 											Your Global Maritime Partner
 										</h3>
 										<p className="text-lg text-gray-200">
-											With offices strategically located across Sri Lanka, we're here to serve your maritime needs
+											With offices strategically located across Sri Lanka, we&apos;re here to serve your maritime needs
 										</p>
 									</div>
 								</div>
@@ -133,7 +133,7 @@ export default function Contact() {
 							>
 								<div className="mb-8">
 									<h3 className="text-2xl font-bold text-[#003366] dark:text-white mb-4">
-										Let's Start a Conversation
+										Let&apos;s Start a Conversation
 									</h3>
 									<p className="text-gray-600 dark:text-gray-300 mb-4">
 										Prudential Shipping Line has been delivering excellence in maritime services since 1998. Whether you need information about our services, have a specific inquiry, or want to discuss a partnership, our team is here to help.

@@ -7,7 +7,6 @@ export default function Counter() {
   const totalYears = currentYear - startYear;
   
   const [count, setCount] = useState(0);
-  const [year, setYear] = useState(startYear);
   const [isVisible, setIsVisible] = useState(false);
   const counterRef = useRef(null);
 
@@ -29,13 +28,10 @@ export default function Counter() {
     if (!isVisible) return;
 
     let currentCount = 0;
-    let currentYearCount = startYear;
     const interval = setInterval(() => {
       if (currentCount < totalYears) {
         setCount(prev => prev + 1);
-        setYear(prev => prev + 1);
         currentCount++;
-        currentYearCount++;
       } else {
         clearInterval(interval);
       }
@@ -59,3 +55,4 @@ export default function Counter() {
     </div>
   );
 }
+  

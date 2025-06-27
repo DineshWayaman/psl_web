@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
               {/* Company Info */}
               <div className="space-y-4">
-                <a href="/">
+                <Link href="/">
                   <Image
                     src="/logo.png"
                     alt="PSL Logo"
@@ -15,7 +16,7 @@ export default function Footer() {
                     height={50}
                     className="object-contain"
                   />
-                </a>
+                </Link>
                 <p className="text-gray-300 text-sm">
                   Your trusted partner in maritime logistics since 1998, delivering excellence in global shipping solutions.
                 </p>

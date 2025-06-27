@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 
@@ -20,7 +21,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <a href="/">
+            <Link href="/">
               <Image
                 src="/logo.png"
                 alt="PSL Logo"
@@ -28,7 +29,7 @@ export default function Navbar() {
                 height={60}
                 className="object-contain"
               />
-            </a>
+            </Link>
           </div>
 
           {/* Desktop Menu */}
