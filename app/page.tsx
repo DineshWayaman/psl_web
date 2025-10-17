@@ -198,7 +198,7 @@ export default function Home() {
                 </div>
                 <div className="mt-8">
                   <Image
-                    src="/img/ISO-TC-Logo.png"
+                    src="/img/iso_logo.png"
                     alt="ISO TC Logo"
                     width={200}
                     height={100}
